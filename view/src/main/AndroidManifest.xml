@@ -15,9 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidStarter"
+        android:usesCleartextTraffic="true"
         >
         <activity
-            android:name="com.paul.wang.view.activity.MainActivity"
+            android:name="com.paul.wang.view.activity.DogBreedActivity"
             android:exported="true"
             >
             <intent-filter>
