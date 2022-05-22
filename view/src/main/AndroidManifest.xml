@@ -16,9 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidStarter"
         android:usesCleartextTraffic="true"
-        >
+        android:dataExtractionRules="@xml/data_extraction_rules">
         <activity
-            android:name="com.paul.wang.view.activity.DogBreedActivity"
+            android:name="com.paul.wang.view.activity.breedlist.DogBreedActivity"
             android:exported="true"
             >
             <intent-filter>
